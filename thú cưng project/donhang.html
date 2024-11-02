@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đơn Hàng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .order-container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .total-price {
+            font-weight: bold;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+
+<div class="order-container">
+    <h1>Chi tiết Đơn Hàng</h1>
+    
+    <!-- Thông tin đơn hàng -->
+    <div>
+        <p><strong>Mã đơn hàng:</strong> 12345</p>
+        <p><strong>Ngày đặt hàng:</strong> 2023-10-15</p>
+        <p><strong>Trạng thái:</strong> Đang xử lý</p>
+    </div>
+
+    <!-- Chi tiết sản phẩm trong đơn hàng -->
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Đồ chơi cho chó</td>
+                <td>2</td>
+                <td>100,000₫</td>
+                <td>200,000₫</td>
+            </tr>
+            <tr>
+                <td>Vòng cổ cho mèo</td>
+                <td>1</td>
+                <td>150,000₫</td>
+                <td>150,000₫</td>
+            </tr>
+            <tr>
+                <td class="total-price" colspan="3">Tổng tiền</td>
+                <td class="total-price">350,000₫</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

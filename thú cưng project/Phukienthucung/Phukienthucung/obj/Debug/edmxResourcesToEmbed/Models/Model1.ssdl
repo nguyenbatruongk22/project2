@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhukienthucungModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KHACH_HANG">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ho_ten" Type="nvarchar" MaxLength="100" />
+    <Property Name="Tai_khoan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mat_khau" Type="nvarchar" MaxLength="32" />
+    <Property Name="Dia_chi" Type="nvarchar" MaxLength="200" />
+    <Property Name="Dien_thoai" Type="nvarchar" MaxLength="30" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ngay_sinh" Type="datetime" />
+    <Property Name="Ngay_cap_nhat" Type="datetime" />
+    <Property Name="Gioi_tinh" Type="tinyint" />
+    <Property Name="Tich_diem" Type="int" Nullable="false" />
+    <Property Name="Trang_thai" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="QUAN_TRI">
+    <Key>
+      <PropertyRef Name="Tai_khoan" />
+    </Key>
+    <Property Name="Tai_khoan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mat_khau" Type="nvarchar" MaxLength="32" Nullable="false" />
+    <Property Name="Trang_thai" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="SAN_PHAM">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="MoTa" Type="text" />
+    <Property Name="Gia" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Hinh_anh" Type="nvarchar" MaxLength="200" />
+    <Property Name="Trang_thai" Type="tinyint" />
+  </EntityType>
+  <EntityContainer Name="PhukienthucungModelStoreContainer">
+    <EntitySet Name="KHACH_HANG" EntityType="Self.KHACH_HANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QUAN_TRI" EntityType="Self.QUAN_TRI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SAN_PHAM" EntityType="Self.SAN_PHAM" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

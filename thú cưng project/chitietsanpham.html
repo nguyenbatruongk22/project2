@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="anh/logo-2206.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="#products">Sản Phẩm</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+                <li><a href="donhang.html">Đơn Hàng</a></li>
+                <li><a href="chitietdonhang.html">Chi tiết đơn hàng</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-details">
+            <h2>Chi Tiết Sản Phẩm</h2>
+
+            <!-- Thông tin sản phẩm sẽ được cập nhật bằng JavaScript -->
+            <div id="product-info">
+                <p>Đang tải chi tiết sản phẩm...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cửa Hàng Phụ Kiện Thú Cưng. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Hàm lấy tham số từ URL
+        function getParameterByName(name) {
+            const url = window.location.search;
+            const params = new URLSearchParams(url);
+            return params.get(name);
+        }
+
+        // Thông tin sản phẩm mẫu
+        const products = {
+            1: {
+                name: "Dây dắt cho cún",
+                description: "Dây dắt cho cún cao cấp, bền và dễ sử dụng.",
+                price: "150,000 VNĐ",
+                image: "anh/day-dat-teddy-s-1-3kg-m-3-5kg-l-5-7kg-xl7-10kg8344_560x560.png"
+            },
+            2: {
+                name: "Vòng cổ cho mèo",
+                description: "Vòng cổ cho mèo xinh xắn với họa tiết trái cây.",
+                price: "200,000 VNĐ",
+                image: "anh/vong-co-bong-tron-trai-cay7450_560x560.png"
+            },
+            3: {
+                name: "Đồ chơi đĩa bay",
+                description: "Đĩa bay cho thú cưng giúp thú cưng giải trí và vận động.",
+                price: "920,000 VNĐ",
+                image: "anh/do-choi-dia-bay-banh-thuong-cho-cho-meo-paw-pet-frisbee-leakage-toy-400x400.webp"
+            }
+        };
+
+        // Lấy id sản phẩm từ URL và hiển thị thông tin
+        const productId = getParameterByName('id');
+        const product = products[productId];
+
+        if (product) {
+            document.getElementById("product-info").innerHTML = `
+                <h3>${product.name}</h3>
+                <img src="${product.image}" alt="${product.name}">
+                <p><strong>Mô tả:</strong> ${product.description}</p>
+                <p><strong>Giá:</strong> ${product.price}</p>
+            `;
+        } else {
+            document.getElementById("product-info").innerHTML = "<p>Không tìm thấy sản phẩm.</p>";
+        }
+    </script>
+</body>
+</html>

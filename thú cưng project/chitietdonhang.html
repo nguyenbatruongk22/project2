@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Đơn Hàng - Cửa Hàng Phụ Kiện Thú Cưng</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="anh/logo-2206.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="#products">Sản Phẩm</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+                <li><a href="donhang.html">Đơn Hàng</a></li>
+                <li><a href="chitietdonhang.html">Chi tiết đơn hàng</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="order-details">
+            <h2>Chi Tiết Đơn Hàng</h2>
+
+            <!-- Thông tin đơn hàng -->
+            <div class="order-info">
+                <p><strong>Mã đơn hàng:</strong> 12345</p>
+                <p><strong>Ngày đặt hàng:</strong> 2023-10-15</p>
+                <p><strong>Trạng thái:</strong> Đang xử lý</p>
+            </div>
+
+            <!-- Bảng chi tiết sản phẩm trong đơn hàng -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tên sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="chitietsanpham.html?id=1">Dây dắt cho cún</a></td>
+                        <td>2</td>
+                        <td>150,000 VNĐ</td>
+                        <td>300,000 VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td><a href="chitietsanpham.html?id=2">Vòng cổ cho mèo</a></td>
+                        <td>1</td>
+                        <td>200,000 VNĐ</td>
+                        <td>200,000 VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td><a href="chitietsanpham.html?id=3">Đồ chơi đĩa bay</a></td>
+                        <td>1</td>
+                        <td>920,000 VNĐ</td>
+                        <td>920,000 VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td class="total" colspan="3"><strong>Tổng cộng</strong></td>
+                        <td><strong>1,420,000 VNĐ</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cửa Hàng Phụ Kiện Thú Cưng. All rights reserved.</p>
+    </footer>
+</body>
+</html>

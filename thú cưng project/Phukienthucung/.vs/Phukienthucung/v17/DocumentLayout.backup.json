@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Phukienthucung\\Phukienthucung\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|d:\\phukienthucung\\phukienthucung\\phukienthucung\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|solutionrelative:phukienthucung\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|d:\\phukienthucung\\phukienthucung\\phukienthucung\\controllers\\san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|solutionrelative:phukienthucung\\controllers\\san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|d:\\phukienthucung\\phukienthucung\\phukienthucung\\controllers\\quan_tricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|solutionrelative:phukienthucung\\controllers\\quan_tricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|d:\\phukienthucung\\phukienthucung\\phukienthucung\\controllers\\khach_hangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|solutionrelative:phukienthucung\\controllers\\khach_hangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|d:\\phukienthucung\\phukienthucung\\phukienthucung\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|solutionrelative:phukienthucung\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|d:\\phukienthucung\\phukienthucung\\phukienthucung\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{CAFBDCD3-0BC2-474A-BB13-0A816D9B8E22}|Phukienthucung\\Phukienthucung.csproj|solutionrelative:phukienthucung\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Phukienthucung\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Phukienthucung\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T02:25:53.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Phukienthucung\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Phukienthucung\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T02:25:42.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SAN_PHAMController.cs",
+              "DocumentMoniker": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Controllers\\SAN_PHAMController.cs",
+              "RelativeDocumentMoniker": "Phukienthucung\\Controllers\\SAN_PHAMController.cs",
+              "ToolTip": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Controllers\\SAN_PHAMController.cs",
+              "RelativeToolTip": "Phukienthucung\\Controllers\\SAN_PHAMController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:25:24.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QUAN_TRIController.cs",
+              "DocumentMoniker": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Controllers\\QUAN_TRIController.cs",
+              "RelativeDocumentMoniker": "Phukienthucung\\Controllers\\QUAN_TRIController.cs",
+              "ToolTip": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Controllers\\QUAN_TRIController.cs",
+              "RelativeToolTip": "Phukienthucung\\Controllers\\QUAN_TRIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:25:04.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KHACH_HANGController.cs",
+              "DocumentMoniker": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Controllers\\KHACH_HANGController.cs",
+              "RelativeDocumentMoniker": "Phukienthucung\\Controllers\\KHACH_HANGController.cs",
+              "ToolTip": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Controllers\\KHACH_HANGController.cs",
+              "RelativeToolTip": "Phukienthucung\\Controllers\\KHACH_HANGController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:24:35.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Phukienthucung\\Models\\Model1.edmx",
+              "ToolTip": "D:\\Phukienthucung\\Phukienthucung\\Phukienthucung\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Phukienthucung\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-25T02:23:04.779Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

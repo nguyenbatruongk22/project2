@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74e4bd63f90f4291bc3b1b7ef43aab0f" Name="Diagram1">
+        <EntityTypeShape EntityType="PhukienthucungModel.CHI_TIET_DON_HANG" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhukienthucungModel.DON_HANG" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhukienthucungModel.KHACH_HANG" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhukienthucungModel.LOAI_PHU_KIEN" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhukienthucungModel.QUAN_TRI" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhukienthucungModel.SAN_PHAM" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="PhukienthucungModel.FK__CHI_TIET_D__MaDH__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="PhukienthucungModel.FK__CHI_TIET_D__MaSP__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="PhukienthucungModel.FK__DON_HANG__MaKH__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="PhukienthucungModel.FK__SAN_PHAM__MaKH__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
