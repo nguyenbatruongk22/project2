@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "KHACH_HANG", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="Tai_khoan">Tài khoản</label>
+        <input type="text" name="Tai_khoan" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Mat_khau">Mật khẩu</label>
+        <input type="password" name="Mat_khau" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Đăng nhập</button>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <p class="text-danger">@ViewBag.ErrorMessage</p>
+}

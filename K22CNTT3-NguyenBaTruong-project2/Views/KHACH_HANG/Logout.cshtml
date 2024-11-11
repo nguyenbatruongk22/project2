@@ -1,0 +1,8 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    <p>Welcome, @User.Identity.Name! <a href="@Url.Action("Logout", "KHACH_HANG")">Logout</a></p>
+}
+else
+{
+    <p><a href="@Url.Action("Login", "KHACH_HANG")">Login</a></p>
+}

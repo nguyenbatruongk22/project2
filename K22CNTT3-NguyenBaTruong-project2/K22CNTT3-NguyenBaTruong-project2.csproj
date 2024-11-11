@@ -272,6 +272,9 @@
     <Content Include="Views\SAN_PHAM\Details.cshtml" />
     <Content Include="Views\SAN_PHAM\Edit.cshtml" />
     <Content Include="Views\SAN_PHAM\Index.cshtml" />
+    <Content Include="Views\KHACH_HANG\Login.cshtml" />
+    <Content Include="Views\KHACH_HANG\Logout.cshtml" />
+    <Content Include="Views\KHACH_HANG\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

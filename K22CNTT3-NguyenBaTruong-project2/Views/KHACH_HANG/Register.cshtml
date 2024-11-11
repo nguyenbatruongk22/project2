@@ -1,0 +1,46 @@
+﻿
+@model K22CNTT3_NguyenBaTruong_project2.Models.KHACH_HANG
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Đăng ký tài khoản</h2>
+
+@using (Html.BeginForm("Register", "KHACH_HANG", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Ho_ten)
+        @Html.TextBoxFor(model => model.Ho_ten, new { @class = "form-control", required = "required" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Tai_khoan)
+        @Html.TextBoxFor(model => model.Tai_khoan, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.Tai_khoan)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Mat_khau)
+        @Html.PasswordFor(model => model.Mat_khau, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.Mat_khau)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email)
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Dien_thoai)
+        @Html.TextBoxFor(model => model.Dien_thoai, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.Dien_thoai)
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Đăng ký</button>
+    </div>
+}
+
